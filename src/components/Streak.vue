@@ -53,12 +53,12 @@ function markTaskComplete(): void {
 .streak {
   width: min(100%, 34rem);
   margin: 1.25rem 0;
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .streak h2 {
@@ -66,35 +66,19 @@ function markTaskComplete(): void {
 }
 
 .streak__count {
-  margin: 0;
-  font-size: 1.25rem;
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
 }
 
 .streak__count strong {
-  color: #526d99;
-  font-size: 2rem;
+  color: #6a311d;
+  font-size: 2.4rem;
+  font-family: Hill, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .streak__quote {
-  color: #68758a;
+  margin: 0;
+  color: #404040;
   font-style: italic;
-}
-
-.streak__button {
-  padding: 0.65rem 1rem;
-  color: #fff;
-  background: #526d99;
-  border: 0;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.streak__button:hover {
-  background: #405a84;
-}
-
-.streak__button:focus-visible {
-  outline: 3px solid #253044;
-  outline-offset: 3px;
 }
 </style>

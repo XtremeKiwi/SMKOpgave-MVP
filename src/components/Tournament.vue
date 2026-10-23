@@ -31,12 +31,12 @@ const rankedSchools = computed(() =>
 
 <style scoped>
 .tournament {
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .tournament__list {
@@ -51,8 +51,9 @@ const rankedSchools = computed(() =>
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.75rem;
-  background: #f5f7fa;
-  border-radius: 0.5rem;
+  padding: 0.8rem 0.9rem;
+  background: #f9f6f2;
+  border: 2px solid #111111;
+  border-radius: 0;
 }
 </style>

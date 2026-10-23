@@ -78,37 +78,33 @@ if (!friendProfile) {
 
 .friend-profile {
   width: min(100%, 20rem);
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .friend-profile-link {
   display: block;
   color: inherit;
   text-decoration: none;
-  border-radius: 0.75rem;
+  border-radius: 0;
 }
 
-.friend-profile-link:hover .friend-profile {
-  border-color: #9aa9bf;
-  box-shadow: 0 0.4rem 1rem rgb(25 40 65 / 14%);
-}
-
-.friend-profile-link:focus-visible {
-  outline: 3px solid #526d99;
-  outline-offset: 3px;
+.friend-profile-link:hover .friend-profile,
+.friend-profile-link:focus-visible .friend-profile {
+  border-color: #a95b3c;
+  box-shadow: none;
 }
 
 .friend-profile__heading {
   display: flex;
   align-items: center;
   gap: 0.9rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e8ecf2;
+  padding-bottom: 0.9rem;
+  border-bottom: 2px solid #111111;
 }
 
 .friend-profile__picture {
@@ -116,8 +112,8 @@ if (!friendProfile) {
   height: 4rem;
   flex: 0 0 4rem;
   object-fit: cover;
-  border: 2px solid #e8ecf2;
-  border-radius: 50%;
+  border: 2px solid #111111;
+  border-radius: 0;
 }
 
 .friend-profile__name {
@@ -138,12 +134,12 @@ if (!friendProfile) {
 }
 
 .friend-profile__details dt {
-  color: #68758a;
+  color: #404040;
 }
 
 .friend-profile__details dd {
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
 }
 </style>

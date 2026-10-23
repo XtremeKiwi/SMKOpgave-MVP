@@ -52,17 +52,17 @@ function placeLabel(index: number): string {
 
 <style scoped>
 .leaderboard {
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .leaderboard__total {
   margin: 0 0 1rem;
-  color: #526d99;
+  color: #404040;
 }
 
 .leaderboard__list {
@@ -77,18 +77,19 @@ function placeLabel(index: number): string {
   display: grid;
   grid-template-columns: 6rem minmax(0, 1fr) auto;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem;
-  background: #f5f7fa;
-  border-radius: 0.5rem;
+  gap: 0.8rem;
+  padding: 0.8rem 0.9rem;
+  border: 2px solid #111111;
+  border-radius: 0;
+  background: #f9f6f2;
 }
 
 .leaderboard__place {
-  color: #68758a;
-  font-weight: 600;
+  color: #404040;
+  font-weight: 700;
 }
 
 .leaderboard__list li:nth-child(-n + 3) .leaderboard__place {
-  color: #526d99;
+  color: #6a311d;
 }
 </style>

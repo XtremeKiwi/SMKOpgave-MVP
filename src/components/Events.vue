@@ -135,12 +135,12 @@ onUnmounted(() => {
 .events {
   max-width: 48rem;
   margin-top: 2rem;
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .events h2 {
@@ -149,7 +149,7 @@ onUnmounted(() => {
 
 .events__list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.8rem;
   margin: 1rem 0 0;
   padding: 0;
   list-style: none;
@@ -158,48 +158,50 @@ onUnmounted(() => {
 .events__list li {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem;
-  background: #f5f7fa;
-  border-radius: 0.5rem;
+  gap: 0.8rem;
+  padding: 0.85rem 0.9rem;
+  background: #f9f6f2;
+  border: 2px solid #111111;
+  border-radius: 0;
 }
 
 .events__task {
   display: flex;
   flex: 1;
   align-items: flex-start;
-  gap: 0.6rem;
+  gap: 0.7rem;
   cursor: pointer;
+  color: #111111;
 }
 
 .events__checkbox {
   flex: 0 0 auto;
   width: 1.1rem;
   height: 1.1rem;
-  margin: 0.15rem 0 0;
-  accent-color: #526d99;
+  margin: 0.2rem 0 0;
+  accent-color: #a95b3c;
 }
 
 .events__task--completed span {
-  color: #68758a;
+  color: #404040;
   text-decoration: line-through;
 }
 
 .events__points {
   flex: 0 0 auto;
-  color: #526d99;
-  font-size: 0.9rem;
+  color: #6a311d;
+  font-size: 0.85rem;
 }
 
 .events__number {
   display: inline-grid;
-  flex: 0 0 1.75rem;
-  width: 1.75rem;
-  height: 1.75rem;
   place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #a95b3c;
   color: #fff;
-  font-weight: 600;
-  background: #526d99;
-  border-radius: 50%;
+  border-radius: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 </style>

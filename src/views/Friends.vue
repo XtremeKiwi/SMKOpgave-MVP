@@ -74,14 +74,14 @@ const profile = computed(() => {
 .friend-profile {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.1rem;
   width: min(100%, 34rem);
-  padding: 1.25rem;
-  color: #253044;
+  padding: 1.2rem;
+  color: #111111;
   background: #fff;
-  border: 1px solid #dce2eb;
-  border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.9rem rgb(25 40 65 / 8%);
+  border: 2px solid #111111;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .friend-profile__information {
@@ -90,17 +90,17 @@ const profile = computed(() => {
 }
 
 .friend-profile__picture {
-  width: 200px;
-  height: 200px;
-  flex: 0 0 200px;
+  width: 7rem;
+  height: 7rem;
+  flex: 0 0 7rem;
   object-fit: cover;
-  border: 2px solid #e8ecf2;
-  border-radius: 50%;
+  border: 2px solid #111111;
+  border-radius: 0;
 }
 
 .friend-profile__name {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.6rem;
 }
 
 .friend-profile__details {
@@ -116,12 +116,12 @@ const profile = computed(() => {
 }
 
 .friend-profile__details dt {
-  color: #68758a;
+  color: #404040;
 }
 
 .friend-profile__details dd {
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
 }
 </style>
